@@ -1,0 +1,45 @@
+
+.container {
+    text-align: center;
+    border-radius: 5%;
+
+}
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light: hsl(212, 45%, 89%);
+    --grayish: hsl(220, 15%, 55%);
+    --dark: hsl(218, 44%, 22%);
+}
+.text {
+  color: black;
+  text-align: center;
+  padding:10px 15px 10px;
+}
+.images{
+    border-radius: 5%;
+
+}
+.text p{
+    font-size: 15px;
+}
+.text h2{
+    font-weight: 700;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 310px;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5%;
+  }
+
+}
+
+@media (max-width: 1444px){
+    .container{
+        width: 420px;
+    }
+}
+
